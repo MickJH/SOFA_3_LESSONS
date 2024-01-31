@@ -5,7 +5,7 @@ namespace Class
 {
     public class MovieScreening
     {
-        public DateTime _dateAndTime;
+        private DateTime _dateAndTime;
         private double _pricePerSeat;
 
         public MovieScreening(Movie movie, DateTime dateAndTime, double pricePerSeat)
