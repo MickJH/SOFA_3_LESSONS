@@ -3,36 +3,33 @@ using System;
 
 namespace Class
 {
-
     public class MovieTicket
     {
-        private int _rowNr;
-        private int _seatNr;
-        private bool _isPremium;
+        public int RowNr { get; private set; }
+        public int SeatNr { get; private set; }
+        public bool IsPremium { get; private set; }
 
         public MovieTicket(MovieScreening movieScreening, bool isPremiumReservation, int seatRow, int seatNr)
         {
-            this._rowNr = seatRow;
-            this._seatNr = seatNr;
-            this._isPremium = isPremiumReservation;
+            this.RowNr = seatRow;
+            this.SeatNr = seatNr;
+            this.IsPremium = isPremiumReservation;
         }
 
-        public bool isPremiumTicket()
+        public bool IsPremiumTicket()
         {
-            //TODO
-            return true;
+            return IsPremium;
         }
 
-        public double getPrice()
+        public double GetPrice()
         {
-            //TODO
+            // TODO: Implement price calculation logic
             return 0.0;
         }
 
-        public string toString()
+        public override string ToString()
         {
-            //TODO
-            return null;
+            return $"Row: {RowNr}, Seat: {SeatNr}, Premium: {IsPremium}";
         }
     }
 }

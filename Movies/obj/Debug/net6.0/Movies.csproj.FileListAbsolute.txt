@@ -1,0 +1,28 @@
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.exe
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.deps.json
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.runtimeconfig.json
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.dll
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.pdb
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.dll
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\refint\Movies.dll
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
+c:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.exe
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.deps.json
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.runtimeconfig.json
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.dll
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.pdb
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.dll
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\refint\Movies.dll
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll

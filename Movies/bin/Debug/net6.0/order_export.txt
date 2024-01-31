@@ -1,0 +1,5 @@
+Order Number: 1
+Is Student Order: True
+Tickets:
+Row: 1, Seat: 1, Premium: False
+Row: 2, Seat: 3, Premium: True

@@ -1,0 +1,16 @@
+{
+  "OrderNr": 1,
+  "IsStudentOrder": true,
+  "Tickets": [
+    {
+      "RowNr": 1,
+      "SeatNr": 1,
+      "IsPremium": false
+    },
+    {
+      "RowNr": 2,
+      "SeatNr": 3,
+      "IsPremium": true
+    }
+  ]
+}
