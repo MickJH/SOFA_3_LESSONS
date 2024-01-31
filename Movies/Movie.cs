@@ -18,8 +18,7 @@ namespace Class
 
         public string toString()
         {
-            //TODO
-            return null;
+            return _title;
         }
     }
 }

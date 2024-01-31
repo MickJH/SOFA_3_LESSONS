@@ -10,16 +10,28 @@ namespace Class
             Movie movie = new Movie("Now you see me");
 
             // Create a movie screening
-            MovieScreening screening = new MovieScreening(movie, DateTime.Now, 10.0);
+            MovieScreening screening = new(movie, DateTime.Now, 10.0);
 
             // Create movie tickets
-            MovieTicket ticket1 = new MovieTicket(screening, false, 1, 1);
-            MovieTicket ticket2 = new MovieTicket(screening, true, 2, 3);
+            MovieTicket ticket1 = new(screening, false, 1, 1);
+            MovieTicket ticket2 = new(screening, false, 2, 3);
+            MovieTicket ticket3 = new(screening, false, 3, 4);
+            MovieTicket ticket4 = new(screening, false, 4, 5);
+            MovieTicket ticket5 = new(screening, false, 5, 6);
+            //MovieTicket ticket6 = new(screening, false, 6, 7);
 
             // Create an order
-            Order order = new Order(1, true);
+            Order order = new(1, true);
             order.addSeatReservation(ticket1);
-            order.addSeatReservation(ticket2);
+            order.addSeatReservation(ticket2);            
+            order.addSeatReservation(ticket3);
+            order.addSeatReservation(ticket4);
+            order.addSeatReservation(ticket5);
+            //order.addSeatReservation(ticket6);
+
+            // Calculate and display the price
+            double totalPrice = order.CalculatePrice();
+            Console.WriteLine($"Total Price: {totalPrice}");
 
             // Export the order to plain text
             Console.WriteLine("Exporting Order to Plain Text:");

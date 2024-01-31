@@ -5,7 +5,7 @@ namespace Class
 {
     public class MovieScreening
     {
-        private DateTime _dateAndTime;
+        public DateTime _dateAndTime;
         private double _pricePerSeat;
 
         public MovieScreening(Movie movie, DateTime dateAndTime, double pricePerSeat)
@@ -14,10 +14,19 @@ namespace Class
             this._pricePerSeat = pricePerSeat;
         }
 
+        public bool isWeekDay()
+        {
+            if (this._dateAndTime.DayOfWeek != DayOfWeek.Sunday && this._dateAndTime.DayOfWeek != DayOfWeek.Saturday)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         public double getPricePerSeat()
         {
-            //TODO
-            return 0.0;
+            return this._pricePerSeat;
         }
 
         public string toString()

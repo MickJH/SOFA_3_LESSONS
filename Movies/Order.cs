@@ -25,8 +25,29 @@ namespace Class
 
         public double CalculatePrice()
         {
-            // TODO: Implement price calculation logic
-            return 0.0;
+            double price = 0.0;
+
+            for (int i = 1; i <= Tickets.Count; i++)
+            {
+                if (i % 2 == 0 && (IsStudentOrder || (Tickets.First().MovieScreening.isWeekDay())))
+                {
+                    price += 0;
+                } else if (IsStudentOrder && Tickets.ElementAt(i-1).IsPremiumTicket())
+                {
+                    price += Tickets.ElementAt(i-1).GetPrice() - 1;
+                }
+                else
+                {
+                    price += Tickets.ElementAt(i - 1).GetPrice();
+                }
+            }
+
+            if (!IsStudentOrder && Tickets.Count >= 6)
+            {
+                price *= 0.9;
+            }
+
+            return price;
         }
 
         public void export(TicketExportFormat exportFormat)
