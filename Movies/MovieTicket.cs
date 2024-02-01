@@ -25,15 +25,7 @@ namespace Class
 
         public double GetPrice()
         {
-            // Elk 2e ticket is gratis voor studenten (elke dag van de week) of als het een voorstelling betreft op een doordeweekse dag (ma/di/wo/do) voor iedereen.
-            if (IsPremium)
-            {
-                return this.MovieScreening.getPricePerSeat() + 3;
-            }
-            else
-            {
-                return this.MovieScreening.getPricePerSeat();
-            }
+            return this.MovieScreening.getPricePerSeat();
         }
 
         public override string ToString()

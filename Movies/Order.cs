@@ -34,9 +34,9 @@ namespace Class
                 {
                     price += 0;
                 }
-                else if (IsStudentOrder && Tickets.ElementAt(i - 1).IsPremiumTicket())
+                else if (Tickets.ElementAt(i - 1).IsPremiumTicket())
                 {
-                    price += Tickets.ElementAt(i - 1).GetPrice() - 1;
+                    price += IsStudentOrder ? 2 : 3;
                 }
                 else
                 {
