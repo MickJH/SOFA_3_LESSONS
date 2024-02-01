@@ -10,6 +10,7 @@ namespace Class
         public int OrderNr { get; private set; }
         public bool IsStudentOrder { get; private set; }
         public List<MovieTicket> Tickets { get; private set; }
+        public double price { get; private set; }
 
         public Order(int orderNr, bool isStudentOrder)
         {
@@ -25,16 +26,17 @@ namespace Class
 
         public double CalculatePrice()
         {
-            double price = 0.0;
+            price = 0.0;
 
             for (int i = 1; i <= Tickets.Count; i++)
             {
                 if (i % 2 == 0 && (IsStudentOrder || (Tickets.First().MovieScreening.isWeekDay())))
                 {
                     price += 0;
-                } else if (IsStudentOrder && Tickets.ElementAt(i-1).IsPremiumTicket())
+                }
+                else if (IsStudentOrder && Tickets.ElementAt(i - 1).IsPremiumTicket())
                 {
-                    price += Tickets.ElementAt(i-1).GetPrice() - 1;
+                    price += Tickets.ElementAt(i - 1).GetPrice() - 1;
                 }
                 else
                 {
@@ -74,6 +76,7 @@ namespace Class
             {
                 writer.WriteLine($"Order Number: {OrderNr}");
                 writer.WriteLine($"Is Student Order: {IsStudentOrder}");
+                writer.WriteLine($"Total Price: {price}");
                 writer.WriteLine("Tickets:");
 
                 foreach (var ticket in Tickets)

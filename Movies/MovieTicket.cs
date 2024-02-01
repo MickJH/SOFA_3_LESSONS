@@ -29,7 +29,8 @@ namespace Class
             if (IsPremium)
             {
                 return this.MovieScreening.getPricePerSeat() + 3;
-            } else
+            }
+            else
             {
                 return this.MovieScreening.getPricePerSeat();
             }
