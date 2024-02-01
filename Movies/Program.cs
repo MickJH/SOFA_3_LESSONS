@@ -14,16 +14,16 @@ namespace Class
 
             // Create movie tickets
             MovieTicket ticket1 = new(screening, false, 1, 1);
-            MovieTicket ticket2 = new(screening, false, 2, 3);
-            MovieTicket ticket3 = new(screening, false, 3, 4);
-            MovieTicket ticket4 = new(screening, false, 4, 5);
+            MovieTicket ticket2 = new(screening, true, 2, 3);
+            MovieTicket ticket3 = new(screening, true, 3, 4);
+            MovieTicket ticket4 = new(screening, true, 4, 5);
             MovieTicket ticket5 = new(screening, false, 5, 6);
             //MovieTicket ticket6 = new(screening, false, 6, 7);
 
             // Create an order
             Order order = new(1, true);
             order.addSeatReservation(ticket1);
-            order.addSeatReservation(ticket2);            
+            order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
             order.addSeatReservation(ticket4);
             order.addSeatReservation(ticket5);

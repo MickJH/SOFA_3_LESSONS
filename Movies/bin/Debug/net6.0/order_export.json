@@ -5,12 +5,33 @@
     {
       "RowNr": 1,
       "SeatNr": 1,
-      "IsPremium": false
+      "IsPremium": false,
+      "MovieScreening": {}
     },
     {
       "RowNr": 2,
       "SeatNr": 3,
-      "IsPremium": true
+      "IsPremium": true,
+      "MovieScreening": {}
+    },
+    {
+      "RowNr": 3,
+      "SeatNr": 4,
+      "IsPremium": true,
+      "MovieScreening": {}
+    },
+    {
+      "RowNr": 4,
+      "SeatNr": 5,
+      "IsPremium": true,
+      "MovieScreening": {}
+    },
+    {
+      "RowNr": 5,
+      "SeatNr": 6,
+      "IsPremium": false,
+      "MovieScreening": {}
     }
-  ]
+  ],
+  "price": 32
 }

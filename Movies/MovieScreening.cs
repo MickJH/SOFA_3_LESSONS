@@ -6,7 +6,7 @@ namespace Class
     public class MovieScreening
     {
         private DateTime _dateAndTime;
-        private double _pricePerSeat;
+        public double _pricePerSeat;
 
         public MovieScreening(Movie movie, DateTime dateAndTime, double pricePerSeat)
         {
@@ -31,8 +31,7 @@ namespace Class
 
         public string toString()
         {
-            //TODO
-            return null;
+            return _pricePerSeat.ToString();
         }
     }
 
