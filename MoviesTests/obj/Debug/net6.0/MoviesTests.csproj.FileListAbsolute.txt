@@ -103,3 +103,5 @@ C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\M
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\obj\Debug\net6.0\MoviesTests.pdb
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\obj\Debug\net6.0\MoviesTests.genruntimeconfig.cache
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\obj\Debug\net6.0\ref\MoviesTests.dll
+C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\bin\Debug\net6.0\appsettings.json

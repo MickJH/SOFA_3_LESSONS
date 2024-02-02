@@ -432,16 +432,15 @@
       "Movies/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.8.0",
-          "xunit": "2.6.6"
-        },
         "compile": {
           "bin/placeholder/Movies.dll": {}
         },
         "runtime": {
           "bin/placeholder/Movies.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
