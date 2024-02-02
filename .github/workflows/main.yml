@@ -1,0 +1,34 @@
+name: Run SonarQube with MSBuild
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0' 
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build with MSBuild
+      run: dotnet build --configuration Release
+
+    - name: Run SonarQube analysis
+      run: |
+        dotnet tool install --global dotnet-sonarscanner
+        dotnet sonarscanner begin /k:"csharp-reachability" /d:sonar.organization="csharp-reachability" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
+        dotnet build --configuration Release
+        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+      env:
+        SONARCLOUD_TOKEN: ${{ secrets.SONAR_TOKEN }}
