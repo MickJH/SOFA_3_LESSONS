@@ -36,6 +36,7 @@ namespace Class
                 }
                 else if (Tickets.ElementAt(i - 1).IsPremiumTicket())
                 {
+                    price += Tickets.ElementAt(i - 1).GetPrice();
                     price += IsStudentOrder ? 2 : 3;
                 }
                 else
