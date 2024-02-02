@@ -47,7 +47,7 @@ jobs:
 
       - name: Build and analyze
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
           dotnet tool install --global coverlet.console
@@ -55,3 +55,4 @@ jobs:
           dotnet build --configuration Release
           dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
