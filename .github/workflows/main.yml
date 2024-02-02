@@ -26,9 +26,9 @@ jobs:
     - name: Run SonarQube analysis
       run: |
         dotnet tool install --global dotnet-sonarscanner
-        dotnet sonarscanner begin /k:"csharp-reachability" /d:sonar.organization="csharp-reachability" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
+        dotnet sonarscanner begin /k:"sofa-3" /o:"sofa-3" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
         dotnet build --configuration Release
-        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
 
       env:
         SONARCLOUD_TOKEN: ${{ secrets.SONAR_TOKEN }}
