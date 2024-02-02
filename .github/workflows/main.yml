@@ -1,34 +1,58 @@
-name: Run SonarQube with MSBuild
+name: SonarCloud
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    name: Build and analyze
+    runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Set up .NET Core
-      uses: actions/setup-dotnet@v1
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
       with:
-        dotnet-version: '6.0' 
-    - name: Restore dependencies
-      run: dotnet restore
+        java-version: 17
+        distribution: 'zulu'
 
-    - name: Build with MSBuild
-      run: dotnet build --configuration Release
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
-    - name: Run SonarQube analysis
+    - name: Cache SonarCloud packages
+      uses: actions/cache@v3
+      with:
+        path: ~\sonar\cache
+        key: ${{ runner.os }}-sonar
+        restore-keys: ${{ runner.os }}-sonar
+
+    - name: Cache SonarCloud scanner
+      id: cache-sonar-scanner
+      uses: actions/cache@v3
+      with:
+        path: ..sonar\scanner
+        key: ${{ runner.os }}-sonar-scanner
+        restore-keys: ${{ runner.os }}-sonar-scanner
+
+    - name: Install SonarCloud scanner
+      if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
+      shell: powershell
+      run: |
+        New-Item -Path ..sonar\scanner -ItemType Directory
+        dotnet tool update dotnet-sonarscanner --tool-path ..sonar\scanner
+
+    - name: Build and analyze
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      shell: powershell
       run: |
         dotnet tool install --global dotnet-sonarscanner
-        dotnet sonarscanner begin /k:"sofa-3" /o:"sofa-3" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
+        ..sonar\scanner\dotnet-sonarscanner begin /k:"SOFA_3" /o:"sofa-3" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io/" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
         dotnet build --configuration Release
-        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONARCLOUD_TOKEN }}"
-
-      env:
-        SONARCLOUD_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        dotnet-coverage collect 'dotnet test' -f xml -o 'coverage.xml'
+        ..sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
