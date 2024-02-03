@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "azZjX/TpizupLjv/dodXRJrWli24ion9j4+98mx7FMDr7wGqZzEYVKpHaswTBNsB8lo0JAI3tIe6mXcDfHeOtQ==",
+  "dgSpecHash": "kr4NKvRT0AI/6xDy4AIeFUZvpWdnAcyQlYkMMOhYuiWZD3CQmutMwkxEXl2rDffuuPIR1myyboNOah8dy1V98g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mickj\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\MoviesTests\\MoviesTests.csproj",
+  "projectFilePath": "E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\MoviesTests\\MoviesTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mickj\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
-    "C:\\Users\\mickj\\.nuget\\packages\\coverlet.msbuild\\6.0.0\\coverlet.msbuild.6.0.0.nupkg.sha512",
     "C:\\Users\\mickj\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\mickj\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\mickj\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
