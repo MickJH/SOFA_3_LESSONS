@@ -23,3 +23,28 @@ C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\M
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 C:\Users\mickj\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\appsettings.Development.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\appsettings.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.exe
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.deps.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.runtimeconfig.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.dll
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\bin\Debug\net6.0\Movies.pdb
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cache
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets\msbuild.Movies.Microsoft.AspNetCore.StaticWebAssets.props
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets\msbuild.build.Movies.props
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Movies.props
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Movies.props
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets.pack.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets.build.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\staticwebassets.development.json
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\scopedcss\bundle\Movies.styles.css
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.dll
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\refint\Movies.dll
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
