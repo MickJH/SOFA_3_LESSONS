@@ -54,7 +54,7 @@ jobs:
         run: |
           dotnet tool install --global dotnet-sonarscanner --version 5.3.1
 
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"MickJH_SOFA_3" /o:"mickjh" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"Your_Project_Key" /o:"Your_Organization_Key" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
 
           dotnet build --configuration Release
           dotnet test MovieTests/MovieTests.csproj --collect:"XPlat Code Coverage"
