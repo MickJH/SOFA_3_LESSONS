@@ -10,13 +10,13 @@ namespace Class
 
         public MovieScreening(Movie movie, DateTime dateAndTime, double pricePerSeat)
         {
-            this._dateAndTime = dateAndTime;
-            this._pricePerSeat = pricePerSeat;
+            _dateAndTime = dateAndTime;
+            _pricePerSeat = pricePerSeat;
         }
 
         public bool isWeekDay()
         {
-            if (this._dateAndTime.DayOfWeek != DayOfWeek.Sunday && this._dateAndTime.DayOfWeek != DayOfWeek.Saturday)
+            if (_dateAndTime.DayOfWeek != DayOfWeek.Sunday && _dateAndTime.DayOfWeek != DayOfWeek.Saturday)
             {
                 return true;
             }

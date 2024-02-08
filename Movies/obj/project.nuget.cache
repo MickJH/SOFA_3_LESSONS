@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "KH3nQh4yQ6IxBkOens+NdV5LujSnJHSWDrWhlcaEIT4XIZLfUpIla+GjJ5DAPmURPlanY040aQDkjJ/9wEmImw==",
   "success": true,
   "projectFilePath": "e:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\Movies.csproj",
+=======
+  "dgSpecHash": "Vo8JsNplNuM4unIRuqAbbVjGBFwbu9pr9SWvG7BaxMoF3HG7G98OzVAw+AIb/5RGRO7Ym1MRVVYvZRuM6SQ0Cw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julie\\Jaar3\\SOFA_3\\Movies\\Movies.csproj",
+>>>>>>> 0e99d743bfd77d9b664de053c908e41afabb84bc
   "expectedPackageFiles": [],
   "logs": []
 }
