@@ -10,7 +10,7 @@ namespace Class
             {
                 writer.WriteLine($"Order Number: {order.OrderNr}");
                 writer.WriteLine($"Is Student Order: {order.IsStudentOrder}");
-                writer.WriteLine($"Total Price: {order.price}");
+                writer.WriteLine($"Total Price: {order.orderPrice}");
                 writer.WriteLine("Tickets:");
 
                 foreach (var ticket in order.Tickets)

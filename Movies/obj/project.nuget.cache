@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "KH3nQh4yQ6IxBkOens+NdV5LujSnJHSWDrWhlcaEIT4XIZLfUpIla+GjJ5DAPmURPlanY040aQDkjJ/9wEmImw==",
+  "dgSpecHash": "K20CYz75kA5G1vK/5+k4gb3zo4hIMQNOwl5y5u8nBFlZboIqG4OOcjpJ1nWEKJTHbbpb90ZEettWGYAgQ+cwFA==",
   "success": true,
-  "projectFilePath": "e:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\Movies.csproj",
-=======
-  "dgSpecHash": "Vo8JsNplNuM4unIRuqAbbVjGBFwbu9pr9SWvG7BaxMoF3HG7G98OzVAw+AIb/5RGRO7Ym1MRVVYvZRuM6SQ0Cw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\julie\\Jaar3\\SOFA_3\\Movies\\Movies.csproj",
->>>>>>> 0e99d743bfd77d9b664de053c908e41afabb84bc
+  "projectFilePath": "E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\Movies.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
