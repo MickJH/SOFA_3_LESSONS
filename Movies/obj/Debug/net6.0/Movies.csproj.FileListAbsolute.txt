@@ -48,3 +48,33 @@ E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bios
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
+<<<<<<< HEAD
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.sourcelink.json
+=======
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\appsettings.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\Movies.exe
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\Movies.deps.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\Movies.runtimeconfig.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\Movies.dll
+C:\Users\julie\Jaar3\SOFA_3\Movies\bin\Debug\net6.0\Movies.pdb
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.csproj.AssemblyReference.cache
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets\msbuild.Movies.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets\msbuild.build.Movies.props
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Movies.props
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Movies.props
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\scopedcss\bundle\Movies.styles.css
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.dll
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\refint\Movies.dll
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.pdb
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
+C:\Users\julie\Jaar3\SOFA_3\Movies\obj\Debug\net6.0\ref\Movies.dll
+>>>>>>> 0e99d743bfd77d9b664de053c908e41afabb84bc

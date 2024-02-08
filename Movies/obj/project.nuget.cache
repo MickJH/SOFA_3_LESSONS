@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "BVUveNxyZr7GVyT5Y+wgZxSfpdDhowpD4dEFrZRorpZD9Ljaq79D3/3tYtfPdftvqPJIYve60YdskLpTG7VrgQ==",
+  "dgSpecHash": "K20CYz75kA5G1vK/5+k4gb3zo4hIMQNOwl5y5u8nBFlZboIqG4OOcjpJ1nWEKJTHbbpb90ZEettWGYAgQ+cwFA==",
   "success": true,
   "projectFilePath": "E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\Movies.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\Movies\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
