@@ -28,7 +28,7 @@ namespace Class
 
         public double CalculatePrice()
         {
-            StrategyFactory pricingStrategyFactory  = new StrategyFactory(this.IsStudentOrder);
+            StrategyFactory pricingStrategyFactory = new StrategyFactory(this.IsStudentOrder);
             IPricingStrategy pricingStrategy = pricingStrategyFactory.GetPricingStrategy();
 
             orderPrice = 0.0;
@@ -46,42 +46,5 @@ namespace Class
         {
             exportFormat.Export(this);
         }
-
-<<<<<<< HEAD
-=======
-        private void exportToPlainText()
-        {
-            string fileName = "order_export.txt";
-
-            using (StreamWriter writer = new StreamWriter(fileName))
-            {
-                writer.WriteLine($"Order Number: {OrderNr}");
-                writer.WriteLine($"Is Student Order: {IsStudentOrder}");
-                writer.WriteLine($"Total Price: {orderPrice}");
-                writer.WriteLine("Tickets:");
-
-                foreach (var ticket in Tickets)
-                {
-                    writer.WriteLine(ticket.ToString());
-                }
-            }
-
-            Console.WriteLine($"Exported to Plain Text successfully. File: {fileName}");
-        }
-
-        private void exportToJSON()
-        {
-            // Use System.Text.Json for JSON serialization
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-            };
-
-            string jsonExport = JsonSerializer.Serialize(this, options);
-
-            File.WriteAllText("order_export.json", jsonExport);
-            Console.WriteLine("Exported to JSON successfully.");
-        }
->>>>>>> 0e99d743bfd77d9b664de053c908e41afabb84bc
     }
 }
