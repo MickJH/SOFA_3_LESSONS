@@ -48,3 +48,4 @@ E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bios
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.pdb
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\ref\Movies.dll
+e:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\Movies\obj\Debug\net6.0\Movies.sourcelink.json

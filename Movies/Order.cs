@@ -53,54 +53,10 @@ namespace Class
             return price;
         }
 
-        public void export(TicketExportFormat exportFormat)
+        public void Export(IExportFormat exportFormat)
         {
-            switch (exportFormat)
-            {
-                case TicketExportFormat.PLAINTEXT:
-                    exportToPlainText();
-                    break;
-                case TicketExportFormat.JSON:
-                    exportToJSON();
-                    break;
-                default:
-                    Console.WriteLine("Invalid export format");
-                    break;
-            }
+            exportFormat.Export(this);
         }
 
-        private void exportToPlainText()
-        {
-            string fileName = "order_export.txt";
-
-            using (StreamWriter writer = new StreamWriter(fileName))
-            {
-                writer.WriteLine($"Order Number: {OrderNr}");
-                writer.WriteLine($"Is Student Order: {IsStudentOrder}");
-                writer.WriteLine($"Total Price: {price}");
-                writer.WriteLine("Tickets:");
-
-                foreach (var ticket in Tickets)
-                {
-                    writer.WriteLine(ticket.ToString());
-                }
-            }
-
-            Console.WriteLine($"Exported to Plain Text successfully. File: {fileName}");
-        }
-
-        private void exportToJSON()
-        {
-            // Use System.Text.Json for JSON serialization
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-            };
-
-            string jsonExport = JsonSerializer.Serialize(this, options);
-
-            File.WriteAllText("order_export.json", jsonExport);
-            Console.WriteLine("Exported to JSON successfully.");
-        }
     }
 }

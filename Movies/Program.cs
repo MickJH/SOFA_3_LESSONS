@@ -35,12 +35,13 @@ namespace Class
 
             // Export the order to plain text
             Console.WriteLine("Exporting Order to Plain Text:");
-            order.export(TicketExportFormat.PLAINTEXT);
-            Console.WriteLine();
+            IExportFormat plainTextExporter = new PlainTextExporter();
+            order.Export(plainTextExporter);
 
             // Export the order to JSON
             Console.WriteLine("Exporting Order to JSON:");
-            order.export(TicketExportFormat.JSON);
+            IExportFormat jsonExporter = new JsonExporter();
+            order.Export(jsonExporter);
         }
     }
 }
