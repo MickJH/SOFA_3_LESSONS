@@ -1,6 +1,8 @@
+using Movies.PricingStrategy;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net.Sockets;
 using System.Text.Json;
 
 namespace Class
@@ -10,7 +12,7 @@ namespace Class
         public int OrderNr { get; private set; }
         public bool IsStudentOrder { get; private set; }
         public List<MovieTicket> Tickets { get; private set; }
-        public double price { get; private set; }
+        public double orderPrice { get; private set; }
 
         public Order(int orderNr, bool isStudentOrder)
         {
@@ -26,31 +28,18 @@ namespace Class
 
         public double CalculatePrice()
         {
-            price = 0.0;
+            StrategyFactory pricingStrategyFactory  = new StrategyFactory(this.IsStudentOrder);
+            IPricingStrategy pricingStrategy = pricingStrategyFactory.GetPricingStrategy();
 
-            for (int i = 1; i <= Tickets.Count; i++)
+            orderPrice = 0.0;
+
+            for (int i = 0; i < Tickets.Count; i++)
             {
-                if (i % 2 == 0 && (IsStudentOrder || (Tickets.First().MovieScreening.isWeekDay())))
-                {
-                    price += 0;
-                }
-                else if (Tickets.ElementAt(i - 1).IsPremiumTicket())
-                {
-                    price += Tickets.ElementAt(i - 1).GetPrice();
-                    price += IsStudentOrder ? 2 : 3;
-                }
-                else
-                {
-                    price += Tickets.ElementAt(i - 1).GetPrice();
-                }
+                var ticketprice = pricingStrategy.CalculatePrice(Tickets.ElementAt(i), Tickets.Count, i + 1);
+                orderPrice += ticketprice;
             }
 
-            if (!IsStudentOrder && Tickets.Count >= 6)
-            {
-                price *= 0.9;
-            }
-
-            return price;
+            return orderPrice;
         }
 
         public void export(TicketExportFormat exportFormat)
@@ -77,7 +66,7 @@ namespace Class
             {
                 writer.WriteLine($"Order Number: {OrderNr}");
                 writer.WriteLine($"Is Student Order: {IsStudentOrder}");
-                writer.WriteLine($"Total Price: {price}");
+                writer.WriteLine($"Total Price: {orderPrice}");
                 writer.WriteLine("Tickets:");
 
                 foreach (var ticket in Tickets)
