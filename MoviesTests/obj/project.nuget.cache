@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kr4NKvRT0AI/6xDy4AIeFUZvpWdnAcyQlYkMMOhYuiWZD3CQmutMwkxEXl2rDffuuPIR1myyboNOah8dy1V98g==",
+  "dgSpecHash": "aymwXWnNI+Yxzu/GiLcVrZdwc9ulJg0iJEaUUbJDfLJuDWZLUeHW1p8fnSiBjLJz0/9EhWRBZ99WIFt5bwVfpg==",
   "success": true,
-  "projectFilePath": "E:\\School (OneDrive)\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\MoviesTests\\MoviesTests.csproj",
+  "projectFilePath": "C:\\Users\\mickj\\OneDrive - Avans Hogeschool\\Desktop\\Avans\\Jaar3\\SOFA_3\\Bioscoop\\Movies\\MoviesTests\\MoviesTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mickj\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\mickj\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
