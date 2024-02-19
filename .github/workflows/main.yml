@@ -14,10 +14,17 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: 17
+<<<<<<< HEAD
           distribution: 'zulu' # Alternative distribution options are available.
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+=======
+          distribution: "zulu" # Alternative distribution options are available.
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+>>>>>>> feature-state-pattern
       - name: Cache SonarCloud packages
         uses: actions/cache@v3
         with:

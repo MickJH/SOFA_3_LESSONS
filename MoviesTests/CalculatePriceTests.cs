@@ -18,7 +18,7 @@ namespace MoviesTests
             MovieTicket ticket3 = new(screening, false, 3, 4);
             MovieTicket ticket4 = new(screening, false, 4, 5);
 
-            Order order = new(1, true);
+            Order order = new(1, true, new OrderCreatedState());
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -46,7 +46,7 @@ namespace MoviesTests
             MovieTicket ticket3 = new(screening, false, 3, 4);
             MovieTicket ticket4 = new(screening, false, 4, 5);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -76,7 +76,7 @@ namespace MoviesTests
             MovieTicket ticket5 = new(screening, true, 5, 6);
             MovieTicket ticket6 = new(screening, true, 6, 7);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -106,7 +106,7 @@ namespace MoviesTests
             MovieTicket ticket3 = new(screening, true, 3, 4);
             MovieTicket ticket4 = new(screening, true, 4, 5);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -136,7 +136,7 @@ namespace MoviesTests
             MovieTicket ticket5 = new(screening, true, 5, 6);
             MovieTicket ticket6 = new(screening, true, 6, 7);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -166,7 +166,7 @@ namespace MoviesTests
             MovieTicket ticket3 = new(screening, false, 3, 4);
             MovieTicket ticket4 = new(screening, false, 4, 5);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -196,7 +196,7 @@ namespace MoviesTests
             MovieTicket ticket5 = new(screening, false, 5, 6);
             MovieTicket ticket6 = new(screening, false, 6, 7);
 
-            Order order = new(1, false);  // Create non-student order
+            Order order = new(1, false, new OrderCreatedState());  // Create non-student order
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -228,7 +228,7 @@ namespace MoviesTests
             MovieTicket ticket5 = new(screening, false, 5, 6);
             MovieTicket ticket6 = new(screening, false, 6, 7);
 
-            Order order = new(1, true);  // Create student order, students get no group discount
+            Order order = new(1, true, new OrderCreatedState());  // Create student order, students get no group discount
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);

@@ -21,7 +21,7 @@ namespace Class
             //MovieTicket ticket6 = new(screening, false, 6, 7);
 
             // Create an order
-            Order order = new(1, true);
+            Order order = new(1, true, new OrderCreatedState());
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
