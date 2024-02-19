@@ -126,7 +126,7 @@ namespace MoviesTests
             // Arrange
             Movie movie = new("Now you see me");
 
-            DateTime screeningDate = new(2024, 2, 7); // February 7, 2024, Wednesday
+            DateTime screeningDate = new(2024, 2, 4); // February 4, 2024, Sunday
             MovieScreening screening = new(movie, screeningDate, 10.0);
 
             MovieTicket ticket1 = new(screening, true, 1, 1);
@@ -148,7 +148,7 @@ namespace MoviesTests
             var result = order.CalculatePrice();
 
             // Assert
-            Assert.Equal(35.1, result);
+            Assert.Equal(70.2, result);
         }
 
         // 1-2-3-5-7-8
@@ -186,7 +186,7 @@ namespace MoviesTests
             // Arrange
             Movie movie = new("Now you see me");
 
-            DateTime screeningDate = new(2024, 2, 7); // February 7, 2024, Wednesday
+            DateTime screeningDate = new(2024, 2, 4); // February 4, 2024, Sunday
             MovieScreening screening = new(movie, screeningDate, 10.0);
 
             MovieTicket ticket1 = new(screening, false, 1, 1);
@@ -208,7 +208,7 @@ namespace MoviesTests
             var result = order.CalculatePrice();
 
             // Assert
-            Assert.Equal(27.0, result);
+            Assert.Equal(54.0, result);
         }
 
         // 1-2-3-5-7-8

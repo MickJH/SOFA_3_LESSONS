@@ -319,3 +319,4 @@ C:\Users\julie\Jaar3\SOFA_3\MoviesTests\obj\Debug\net6.0\refint\MoviesTests.dll
 C:\Users\julie\Jaar3\SOFA_3\MoviesTests\obj\Debug\net6.0\MoviesTests.pdb
 C:\Users\julie\Jaar3\SOFA_3\MoviesTests\obj\Debug\net6.0\MoviesTests.genruntimeconfig.cache
 C:\Users\julie\Jaar3\SOFA_3\MoviesTests\obj\Debug\net6.0\ref\MoviesTests.dll
+E:\School (OneDrive)\OneDrive - Avans Hogeschool\Desktop\Avans\Jaar3\SOFA_3\Bioscoop\Movies\MoviesTests\obj\Debug\net6.0\MoviesTests.sourcelink.json
