@@ -1,3 +1,4 @@
+using Movies.Observer;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -5,19 +6,21 @@ using System.Text.Json;
 
 namespace Class
 {
-    public class Order
+    public class Order : INotificationSubject
     {
         public int OrderNr { get; private set; }
         public bool IsStudentOrder { get; private set; }
         public List<MovieTicket> Tickets { get; private set; }
         public double price { get; private set; }
         public IOrderState State { get; set; }
+        private readonly List<INotificationObserver> _notificationObservers;
 
         public Order(int orderNr, bool isStudentOrder, IOrderState initialState)
         {
-            this.OrderNr = orderNr;
-            this.IsStudentOrder = isStudentOrder;
-            this.Tickets = new List<MovieTicket>();
+            OrderNr = orderNr;
+            IsStudentOrder = isStudentOrder;
+            Tickets = new List<MovieTicket>();
+            _notificationObservers = new List<INotificationObserver>();
 
             // Check if the initial state is one of the allowed states
             if (initialState.GetType() != typeof(OrderCreatedState))
@@ -25,7 +28,7 @@ namespace Class
                 throw new ArgumentException("Invalid initial state");
             }
 
-            this.State = initialState;
+            State = initialState;
         }
 
         public void addSeatReservation(MovieTicket ticket)
@@ -64,21 +67,25 @@ namespace Class
 
         public void Submit()
         {
+            NotifyObservers("Order submitted.");
             State.Submit(this);
         }
 
         public void Pay()
         {
+            NotifyObservers("Order paid.");
             State.Pay(this);
         }
 
         public void Cancel()
         {
+            NotifyObservers("Order cancelled.");
             State.Cancel(this);
         }
 
         public void Remind()
         {
+            NotifyObservers("Open order is waiting for action.");
             State.Remind(this);
         }
 
@@ -130,6 +137,26 @@ namespace Class
 
             File.WriteAllText("order_export.json", jsonExport);
             Console.WriteLine("Exported to JSON successfully.");
+        }
+
+        public void RegisterObserver(INotificationObserver observer)
+        {
+            _notificationObservers.Add(observer);
+        }
+
+        public void RemoveObserver(INotificationObserver observer)
+        {
+            int i = _notificationObservers.IndexOf(observer);
+            _notificationObservers.RemoveAt(i);
+        }
+
+        public void NotifyObservers(string message)
+        {
+            for (int i = 0; i < _notificationObservers.Count; i++)
+            {
+                INotificationObserver observer = _notificationObservers.ElementAt(i);
+                observer.Update(message);
+            }
         }
     }
 }

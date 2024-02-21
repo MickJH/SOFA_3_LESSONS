@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Movies.NotificationTypes;
+using System;
 
 namespace Class
 {
@@ -22,6 +23,8 @@ namespace Class
 
             // Create an order
             Order order = new(1, true, new OrderCreatedState());
+            order.RegisterObserver(new EmailNotification());
+
             order.addSeatReservation(ticket1);
             order.addSeatReservation(ticket2);
             order.addSeatReservation(ticket3);
@@ -29,9 +32,14 @@ namespace Class
             order.addSeatReservation(ticket5);
             //order.addSeatReservation(ticket6);
 
+            order.Submit();
+
+            order.RegisterObserver(new SMSNotification());
             // Calculate and display the price
             double totalPrice = order.CalculatePrice();
             Console.WriteLine($"Total Price: {totalPrice}");
+
+            order.Pay();
 
             // Export the order to plain text
             Console.WriteLine("Exporting Order to Plain Text:");
